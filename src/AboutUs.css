@@ -1,0 +1,53 @@
+/* General container styling */
+.about-container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #f9f9f9; /* لون خلفية فاتح */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* ظل خفيف */
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header styles */
+  .about-header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .about-header h2 {
+    font-size: 2rem;
+    color: #333; /* لون داكن */
+  }
+  
+  .about-header p {
+    font-size: 1.2rem;
+    color: #555; /* لون رمادي */
+  }
+  
+  /* Content styles */
+  .about-content {
+    line-height: 1.8;
+    color: #444;
+    font-size: 1rem;
+  }
+  
+  .about-content p {
+    margin-bottom: 1rem;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .about-container {
+      padding: 1rem;
+    }
+  
+    .about-header h2 {
+      font-size: 1.8rem;
+    }
+  
+    .about-content {
+      font-size: 0.9rem;
+    }
+  }
+  

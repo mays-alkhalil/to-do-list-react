@@ -1,0 +1,118 @@
+/* App Container */
+.App {
+  border: 1px solid #e0e0e0;
+  border-radius: 15px;
+  background-color: #ffffff;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  margin: 50px auto;
+  padding: 30px 25px;
+  max-width: 500px;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Title */
+.App h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 25px;
+  font-size: 26px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+  border-bottom: 2px solid #007bff;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+/* To-Do Container */
+.todo-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Input Field */
+.todo-container input {
+  border: 2px solid #dcdcdc;
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  transition: border-color 0.3s ease;
+}
+
+.todo-container input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Add Button */
+.todo-container button {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.todo-container button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+/* To-Do List */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f8f9fa;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 12px 15px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.item:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* List Items */
+.item li {
+  flex: 1;
+  color: #333;
+  font-size: 16px;
+  cursor: pointer;
+  word-break: break-word;
+}
+
+.item li.done {
+  text-decoration: line-through;
+  color: #999;
+}
+
+/* Delete Button */
+.trash {
+  color: #ff4d4d;
+  font-size: 20px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.trash:hover {
+  color: #b30000;
+}
+
+
+
